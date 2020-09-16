@@ -129,6 +129,7 @@ namespace ImagesCompressionConsoleApp
                     // just save file in outDirectory only no need to send for Compressing process
                     Console.WriteLine("File is less than 1MB");
                     new Program().SaveImageInOutDirectory(file, fileName);
+
                 }
 
             }
